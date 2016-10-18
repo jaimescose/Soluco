@@ -1,0 +1,39 @@
+<nav>
+  <div class="nav-wrapper grey darken-4"
+    <a href="#" class="brand-logo">SOLUCO</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="sass.html">Solicitar</a></li>
+      <li><a href="badges.html">Cooperar</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <%= image_tag "uninorte.JPG", class:"responsive-img"%>
+      <div class="caption center-align">
+        <%= image_tag "uninortelogo.jpg", class:"circle", style:"height: 40% ; width: 20%;"%>
+        <h3>UNIVERSIDAD DEL NORTE</h3>
+      </div>
+    </li>
+    <li>
+      <%= image_tag "autonoma_.jpg", class:"responsive-img"%>
+      <div class="caption center-align">
+        <%= image_tag "logo.png", class:"circle", style:"height: 40% ; width: 20%;"%>
+        <div class="grey darken-4">
+          <h3>UNIVERSIDAD AUTÓNOMA DEL CARIBE</h3>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="buttons-wrapper">
+  <div class="row center">
+    <a class="waves-effect waves-light btn grey darken-4">VER</a>
+  </div>
+</div>
+<script>
+  $(document).ready(function(){
+    $('.slider').slider();
+  });
+</script>
